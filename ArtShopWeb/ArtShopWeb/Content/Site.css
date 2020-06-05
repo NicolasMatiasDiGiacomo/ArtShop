@@ -1,0 +1,87 @@
+﻿html, body {
+    background-color: #d3d0d0
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+
+p {
+    text-align: justify;
+}
+
+#container {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    min-height:450px;
+}
+
+header > div > a {
+    text-align: left;
+    font-size: larger;
+    text-decoration: none;
+    padding: 14px 16px;
+    color: darkgray;
+}
+
+section {
+    float: left;
+    width: 80%;
+}
+
+aside {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    background-color: black;
+    clear: both;
+}
+
+header {
+    background-color: lightgray;
+}
+
+nav {
+    background-color: darkgray;
+}
+
+nav > div > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav > div  > ul > li {
+    float: left;
+}
+
+nav > div > ul > li > a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav > div > ul > li > a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.right {
+    float: right;
+}
+
+.width80Center {
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <title>@ViewBag.Title - UAI</title>
+</head>
+<body>
+    <header>
+        <div class="width80Center">
+            <a href="/">Art Shop</a>
+        </div>
+    </header>
+    <nav>
+        <div class="width80Center">
+            <ul>
+                <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                <li>@Html.ActionLink("Shop", "Shop", "Home")</li>
+                <li>@Html.ActionLink("Acerca de", "AcercaDe", "Home")</li>
+                <li class="right">@Html.ActionLink("Carrito", "Carrito", "Home")</li>
+            </ul>
+        </div>
+    </nav>
+    <div id="container">
+        <section>
+            <article>
+                @RenderBody()
+            </article>
+        </section>
+
+        <aside>
+            <article>
+                <div>
+                    <p>Titulo</p>
+                </div>
+            </article>
+        </aside>
+    </div>
+    <footer>
+        <p>Nombre del Grupo</p>
+    </footer>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
