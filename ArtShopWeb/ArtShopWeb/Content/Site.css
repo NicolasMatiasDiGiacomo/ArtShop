@@ -28,11 +28,21 @@ header > div > a {
     text-decoration: none;
     padding: 14px 16px;
     color: #737a85;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 aside {
     float: left;
-    width: 20%;
+    margin: 20px;
+    width: 30%;
+}
+
+article {
+    float: left;
+    margin: 20px;
+    width: 60%;
+    background-color: #e2e2e2;
+    min-height: 460px;
 }
 
 footer {
