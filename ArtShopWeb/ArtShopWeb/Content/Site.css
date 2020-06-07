@@ -1,5 +1,5 @@
 ﻿html, body {
-    background-color: #d3d0d0
+    background-color: #e9eef1;
 }
 
 h1, h2, h3, p {
@@ -15,24 +15,19 @@ p {
     text-align: justify;
 }
 
-#container {
-    background-color: white;
+section {
+    background-color: #fdfdfd;
     width: 60%;
-    margin: 0 auto;
-    min-height:450px;
+    margin: 20px auto;
+    min-height: 500px;
 }
 
 header > div > a {
     text-align: left;
-    font-size: larger;
+    font-size: 30px;
     text-decoration: none;
     padding: 14px 16px;
-    color: darkgray;
-}
-
-section {
-    float: left;
-    width: 80%;
+    color: #737a85;
 }
 
 aside {
@@ -41,41 +36,48 @@ aside {
 }
 
 footer {
-    background-color: black;
+    background-color: #333945;
+    bottom: 0 auto;
+    position: fixed;
+    width: 100%;
     clear: both;
-}
-
-header {
-    background-color: lightgray;
-}
-
-nav {
-    background-color: darkgray;
-}
-
-nav > div > ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav > div  > ul > li {
-    float: left;
-}
-
-nav > div > ul > li > a {
-    display: block;
-    color: black;
+    color: #afb6b9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-nav > div > ul > li > a:hover {
-    background: #ddd;
-    color: black;
+header {
+    background-color: #ced1dc;
 }
+
+nav {
+    background-color: #333945;
+}
+
+    nav > div > ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+        nav > div > ul > li {
+            float: left;
+        }
+
+            nav > div > ul > li > a {
+                display: block;
+                color: #afb6b9;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                nav > div > ul > li > a:hover {
+                    background: #ddd;
+                    color: black;
+                }
 
 .right {
     float: right;
@@ -84,4 +86,8 @@ nav > div > ul > li > a:hover {
 .width80Center {
     width: 80%;
     margin: 0 auto;
+}
+
+#carouselExampleControls {
+    width: 60%
 }
